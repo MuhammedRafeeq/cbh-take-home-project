@@ -9,3 +9,7 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+created a new funciton called getPartitionKey to simplify the execution and readabality, this method accept the argument and return the string 
+simplified the conditon checking by removing unwanted conditions
+const variables moved to top
+saved execuition resources if the parameter is empty
